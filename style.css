@@ -103,24 +103,17 @@ h2 {
     height: 100px;
     margin: 40px auto 0 auto;
     background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(47, 0, 255) 100%);
-    border-radius: 100%;  
+    border-radius: 10%;  
 }
 .rotate-01:hover {
-    transform: rotate();
+    transform: rotate(150deg);
     transition: 1S;
 }
 .rotateX:hover {
-    transform: rotate();
+    transform: rotateX(150deg);
     transition: 1S;
 }
 .rotateY:hover {
-    transform: rotate();
-    transition: 1S;
-}
-.rotate-origin {
-    transform-origin: left top;
-}
-.rotate-origin:hover {
-    transform: R;
+    transform: rotateY(150deg);
     transition: 1S;
 }
